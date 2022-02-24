@@ -46,3 +46,8 @@ void House::Draw() const
 	ScreenSingleton::getInstance().GotoXY(x, y);
 	cout << "############";
 }
+
+void House::HandleInsideCheck()const
+{
+
+}

@@ -3,8 +3,9 @@
 #include <stdint.h>
 
 #include "GameObject.h"
-//#include "Visitor.h"
+
 class Visitor;
+
 class DynamicObject : public GameObject 
 {
 public:

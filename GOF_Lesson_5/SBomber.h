@@ -7,7 +7,7 @@
 #include "Bomb.h"
 #include "Ground.h"
 #include "Tank.h"
-#include"Visitor.h"
+#include "Visitor.h"
 
 class SBomber
 {
@@ -24,7 +24,7 @@ public:
 
     void DrawFrame();
     void MoveObjects();
-    void CheckObjects();
+    void CheckObjects(); 
 
 private:
 

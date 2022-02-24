@@ -1,8 +1,5 @@
-
 #include <conio.h>
 #include <windows.h>
-#include<memory>
-
 
 #include "MyTools.h"
 #include "SBomber.h"
@@ -377,3 +374,4 @@ void SBomber::DropBomb()
         score -= Bomb::BombCost;
     }
 }
+

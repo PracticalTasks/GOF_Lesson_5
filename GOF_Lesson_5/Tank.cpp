@@ -42,3 +42,8 @@ void Tank::Draw() const
 	ScreenSingleton::getInstance().GotoXY(x,y);
 	cout << " ###########";
 }
+
+void Tank::HandleInsideCheck()const
+{
+
+}
