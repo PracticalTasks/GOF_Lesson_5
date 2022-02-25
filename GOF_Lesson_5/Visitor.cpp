@@ -4,7 +4,6 @@ void LogVisitor::visit(Bomb* obj)
 {
 	FileLoggerSingleton::getInstance().WriteToLog("Bomb's X-coordinat: ",obj->GetX());
 	FileLoggerSingleton::getInstance().WriteToLog("Bomb's Y-coordinat: ", obj->GetY());
-
 	FileLoggerSingleton::getInstance().WriteToLog("Bomb speed: ", obj->GetSpeed());
 	FileLoggerSingleton::getInstance().WriteToLog("Bomb X direction: ", obj->GetDirectionX());
 	FileLoggerSingleton::getInstance().WriteToLog("Bomb Y direction: ", obj->GetDirectionY());

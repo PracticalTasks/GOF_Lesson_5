@@ -4,7 +4,6 @@
 #include"DynamicObject.h"
 #include"DestroyableGroundObject.h"
 
-//class DestroyableGroundObject;
 
 class Bomb : public DynamicObject
 {

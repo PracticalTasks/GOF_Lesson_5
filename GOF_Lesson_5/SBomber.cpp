@@ -103,12 +103,7 @@ void SBomber::MoveObjects()
 			Plane* plane;
 			Bomb* bomb;
             vecDynamicObj[i]->Move(deltaTime);
-			plane = dynamic_cast<Plane*>(vecDynamicObj[i]);
-			if(plane)
-				plane->Accept(visit);
-			bomb = dynamic_cast<Bomb*>(vecDynamicObj[i]);
-			if (bomb)
-				bomb->Accept(visit);
+			vecDynamicObj[i]->Accept(visit);
         }
     }
 };
